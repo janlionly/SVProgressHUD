@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.default_subspec = 'Core'
 
   s.subspec 'Core' do |core|
-    core.source_files = 'SVProgressHUD/*.{h,m}'
+    core.source_files = 'Sources/SVProgressHUD/*.{h,m}'
     core.resources = 'SVProgressHUD/SVProgressHUD.bundle'
   end
 
